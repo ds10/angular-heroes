@@ -1,4 +1,4 @@
-export const providers[
+export const providers = [
     {
       "UKPRN": 10000291,
       "PROVIDER_NAME": "ANGLIA RUSKIN UNIVERSITY",
