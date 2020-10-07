@@ -7,26 +7,20 @@ import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { ProductAlertComponent } from './product-alert/product-alert.component';
-import { ProductDetailsComponent } from './product-details/product-details.component';
-import { UniversityDetailsComponent } from './university-details/university-details.component';
 
 @NgModule({
   imports: [
     BrowserModule,
     ReactiveFormsModule,
     RouterModule.forRoot([
-      { path: '', component: ProductListComponent },
-      { path: 'products/:productID', component: ProductDetailsComponent },
-      { path: 'products/:ID', component: ProductDetailsComponent },
+      { path: '', component: ProductListComponent }
     ])
   ],
   declarations: [
     AppComponent,
     TopBarComponent,
     ProductListComponent,
-    ProductAlertComponent,
-    ProductDetailsComponent,
-    UniversityDetailsComponent
+    ProductAlertComponent
   ],
   bootstrap: [ AppComponent ]
 })
