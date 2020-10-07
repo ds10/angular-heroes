@@ -22,9 +22,9 @@
 
 </div>
 
-<div *ngFor="let provider of providers">
+<div *ngFor="let provider of providers;">
   <h3>
-       <a [title]="provider.PROVIDER_NAME">
+       <a [title]="provider.PROVIDER_NAME" [routerLink]="['/universities', provider.UKPRN]">
       {{ provider.PROVIDER_NAME }}
       </a>
 
