@@ -17,7 +17,7 @@ import { UniversityDetailsComponent } from './university-details/university-deta
     RouterModule.forRoot([
       { path: '', component: ProductListComponent },
       { path: 'products/:productID', component: ProductDetailsComponent },
-      { path: 'products/:universityID', component: UniversityDetailsComponent },
+      { path: 'products/:ID', component: ProductDetailsComponent },
     ])
   ],
   declarations: [
