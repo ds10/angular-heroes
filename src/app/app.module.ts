@@ -16,8 +16,8 @@ import { UniversityDetailsComponent } from './university-details/university-deta
     ReactiveFormsModule,
     RouterModule.forRoot([
       { path: '', component: ProductListComponent } ,
-      { path: 'products/ProductID', component: ProductDetailsComponent } ,
-      { path: 'products/UniversityID', component: ProductDetailsComponent } 
+      { path: 'products/:productId', component: ProductDetailsComponent },
+      { path: 'universities/:universityId', component: ProductDetailsComponent } 
     ])
   ],
   declarations: [
